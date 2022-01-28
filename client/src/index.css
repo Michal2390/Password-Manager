@@ -1,0 +1,143 @@
+
+body {
+    background: #ffffff;
+    height: 100%;
+}
+
+html, body, .root .sidebar .side-menu {
+    min-height: 100% !important;
+    height: 100% !important;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    /*transition: all 0.3s;*/
+}
+
+
+.sidebar {
+    background: #d37e29;
+    color: #fff;
+    /*transition: all 0.5s;*/
+}
+
+.sidebar.is-open {
+    margin-left: 0;
+    /*transition: 0.5s;*/
+}
+
+.sidebar-header {
+    background: #d37e29;
+    min-height: 40px;
+}
+
+.sidebar-header h3 {
+    color: #fff;
+}
+
+.sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-open {
+    background: #d37e29;
+}
+
+.nav-item:hover {
+    color: #d37e29;
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.items-menu {
+    color: #fff !important;
+    background: #d37e29;
+}
+
+li a.dropdown-toggle::after {
+    display: inline-flex;
+    position: relative;
+    top: 5%;
+}
+
+@media (min-width: 576px) {
+    .side-menu {
+        min-height: 100vh;
+        max-height: 100%;
+    }
+}
+
+.page-title {
+    background-color: #d37e29;
+}
+
+.page-content {
+    max-width: 100vw !important;
+}
+
+.generator-output {
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .generator-output {
+        max-width: calc(100vw - 300px);
+    }
+}
+
+@media (max-width: 575px) {
+    .generator-output {
+        max-width: calc(100vw - 50px);
+    }
+}
+
+.logout-button {
+    cursor: pointer;
+    color: #d37e29;
+    margin: 10px;
+    margin-top: 20px !important;
+}
+
+.logout-button:hover {
+    color: #d37e29;
+    background: #fff;
+}
+
+.side-menu::-webkit-scrollbar {
+    width: 10px;
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+    background: #d37e29;
+    border-radius: 3px;
+}
+
+.side-menu::-webkit-scrollbar-thumb:hover {
+    background: #d37e29;
+}
+
+.menu-item {
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.btn-close {
+    display: none;
+}
+
+.blurry-text {
+    filter: blur(4px);
+}
+
+.modal-backdrop {
+    background-color: #d37e29 !important;
+    opacity: 1 !important;
+}
